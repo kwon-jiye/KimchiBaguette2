@@ -1,0 +1,52 @@
+# Gradle build output and caches
+/.gradle/
+/build/
+/out/
+/bin/
+*.class
+
+# IDE and editor files
+/.idea/
+/.vscode/
+*.iml
+*.ipr
+*.iws
+*.code-workspace
+.classpath
+.project
+.settings/
+*.launch
+
+# Local game data
+/scores
+/player_assets.properties
+/player_assets.properties.*
+/.space-invaders/
+
+# Logs and temporary files
+/log/
+/log.*
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+local.properties
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
